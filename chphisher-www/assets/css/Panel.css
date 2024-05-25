@@ -1,0 +1,120 @@
+body {
+    background-color: #000;
+    background-image:url(../img/login/background.png);
+    background-size:cover;
+    /*background-size: 1920px 1165px;*/
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    line-height:1.4em;
+    overflow:auto;
+    font-size: 1.3em;
+    margin:0px;
+    padding:0px;
+}
+  
+body:before {
+  content: "";
+  position: relative;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  width: 4px;
+}
+
+
+span {
+  z-index: 20!important;
+}
+button {
+    z-index: 10!important;
+}
+
+textarea::placeholder{
+    /* color: rgb(151, 151, 151)!important; */
+    color: limegreen!important;
+}
+
+.form-control{
+    /* position: relative!important; */
+    border-radius: 25px!important;
+    background-color: #070713!important;
+    color: white!important;
+    border-color: #070713!important;
+    z-index: 10!important;
+}
+
+.info-template-set {
+    /* position: absolute!important; */
+    text-align: center!important;
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    z-index: 10!important;
+
+}
+
+  
+canvas {
+    display: block;
+    width:90%!important;
+    height:90%!important;
+    background-color: transparent;
+    position: fixed;
+    /* clear:both; */
+    /* z-index: 10; */
+}
+
+  
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 391px) {
+  #path {
+    width: 50%!important;
+    font-size: 10px!important;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  #path {
+    width: 50%!important;
+    font-size: 15px!important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 390px) {
+  #path {
+    width: 50%!important;
+    font-size: 8px!important;
+  }
+  #tempSelect {
+    width: 50%!important;
+    /* font-size: 8px!important; */
+  }
+  #get-temp-link {
+    width: 50%!important;
+    /* font-size: 8px!important; */
+  }
+  #loginInfo {
+    width: 75%!important;
+  }
+}
+  
+@media screen and (max-width: 225px) {
+  #path {
+    width: 50%!important;
+    height: 20%!important;
+    font-size: 5px!important;
+  }
+  .cp-btn {
+    width: 50%!important;
+    height: 20%!important;
+  }
+}

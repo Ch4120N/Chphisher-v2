@@ -1,0 +1,8 @@
+.shadow-header {
+    display: block;
+    width: 96%;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 7%);
+    margin: 0 auto;
+    margin-top: 5px;
+}

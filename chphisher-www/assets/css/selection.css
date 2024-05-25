@@ -1,0 +1,12 @@
+.selection-control {
+    z-index: 10!important;
+    text-align: center!important;
+    width: 30%!important;
+}
+
+input {
+    z-index: 10!important;
+}
+form {
+    z-index: 10!important;
+}
