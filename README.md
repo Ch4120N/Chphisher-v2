@@ -20,14 +20,17 @@
     <img src="https://img.shields.io/badge/php-7.4.4-green"
          alt="php">
   </a>
+  
 
+  
   <a href="https://en.wikipedia.org/wiki/Linux">
     <img src="https://img.shields.io/badge/Platform-Linux-red">
   </a>
   <a href="https://en.wikipedia.org/wiki/Windows">
     <img src="https://img.shields.io/badge/Platform-Windows-skyblue">
   </a>
-
+  
+  ![GitHub License](https://img.shields.io/github/license/Ch4120N/Chphisher-v2)
 </p>
 
 ## Project Programmer
