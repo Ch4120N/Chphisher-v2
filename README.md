@@ -1,10 +1,15 @@
+<head>
+  <meta name="google-site-verification" content="l4gzIHopgDDt57xRYeRvJZ5DYgg4lLb-qPciUxhNxkY" />
+</head>
+
+
 <h1 align="center">
   <br>
-  <a href="https://github.com/ultrasecurity/Storm-Breaker"><img src=".imgs/1demo.png" alt="StormBreaker"></a>
+  <a href="https://github.com/Ch4120N/Chphisher-v2"><img src=".imgs/logo.png" alt="Chphisher2"></a>
 
 </h1>
 
-<h4 align="center">A Tool With Attractive Capabilities. </h4>
+<h2 align="center">An Automated Phishing Tool With More Than 30+ Templates</h2>
 
 <p align="center">
 
@@ -19,79 +24,98 @@
   <a href="https://en.wikipedia.org/wiki/Linux">
     <img src="https://img.shields.io/badge/Platform-Linux-red">
   </a>
+  <a href="https://en.wikipedia.org/wiki/Windows">
+    <img src="https://img.shields.io/badge/Platform-Windows-skyblue">
+  </a>
 
 </p>
 
-![demo](.imgs/screen1.jpeg)
+## Project Programmer
+> Ch4120N - Ch4120ni@Gmail.com
 
-### Features:
+## Made For
+> Automating Phishing Attacks With `NGROK` OR `Personal HOST`.
 
-- Obtain Device Information Without Any Permission !
-- Access Location [SMARTPHONES]
-- Access Webcam
-- Access Microphone
+## ✨ Features
 
-<br>
+* There Is No Limit
+* Good Security For Panel And Templates
+* More Than 30+ Templates
+* Good Design
+* Very High Speed
+* Ngrok Service Support
+* Cross-Platform Support
 
-### Update Log:
 
-- Second (latest) Update on November 4th , 2022 .
-- The overall structure of the tool is programmed from the beginning and is available as a web panel (in previous versions, the tool was available in the command line).
-- Previous version's bugs fixed !
-- Auto-download Ngrok Added !
-- The templates have been optimized !
-- Logs can be downloaded (NEW) !
-- Clear log Added !
-- It can be uploaded on a personal host (you won't have the Ngork problems anymore)
-- You can start and stop the listener anytime ! (At will)
-- Beautified user interface (NEW) !
+## Default Settings For `WebPanel`:
 
-> We have deleted Ngrok in the new version of Storm breaker and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself .
-> <br>
+> `Username` : `admin`
+>
+> `Password` : `admin`
 
-#### Attention! :
+You can edit the **__include/config.php__** file to change the username and password.
 
-> This version can be run on both local host and your personal domain and host . However , you can use it for both situations. If your country has suspended the Ngrok service, or your country's banned Ngrok, or your victim can't open the Ngrok link (for the reasons such as : He sees such a link as suspicious, Or if this service is suspended in his country) We suggest using the tool on your personal host and domain .
-> <br>
+## ⚓ Requires
+**`Chphisher`** requires following programs to run properly 
+> php >= 7.1
+>
+> python3 >= 3.6
+>
+> git
+>
+> NGROK
 
-## Default username and password:
+__We have deleted NGROK Service in the new version of `Chphisher` and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself__.
 
-- `username` : `admin`
-- `password` : `admin`
-- You can edit the config.php file to change the username and password .
-  <br>
+## 🎗️ Supported Operating Systems
+- [X] Debian
+- [X] Kali Linux
+- [X] Ubuntu
+- [X] Arch Linux
+- [X] Android (With Termux)
+- [X] Windows 7/8/10/11
 
-### Dependencies
 
-**`Storm Breaker`** requires following programs to run properly -
+## 💻 Platforms Tested
 
-- `php`
-- `python3`
-- `git`
-- `Ngrok`
+- [X] Kali Linux 2024
+- [X] macOS Big Sur / M1
+- [X] Termux (android)
+- [X] Windows 7/8/9/10/11
+- [X] Personal host (DirectAdmin and cPanel)
 
-<!-- ![demo](.imgs/Work3.gif) -->
-<br>
-
-### Platforms Tested
-
-- Kali Linux 2022
-- macOS Big Sur / M1
-- Termux (android)
-- Personal host (direct admin and cPanel)
-  <br>
-
-### Installation On Kali Linux
+## ⚙️ Installation
 
 ```bash
-$ git clone https://github.com/ultrasecurity/Storm-Breaker
-$ cd Storm-Breaker
-$ sudo bash install.sh
-$ sudo python3 -m pip install -r requirements.txt
-$ sudo python3 st.py
+git clone https://github.com/Ch4120N/Chphisher-v2
+cd Chphisher-v2
+sudo bash install.sh
+sudo python3 -m pip install -r requirements.txt
+sudo python3 chphisher.py
 ```
 
-<br>
+> **Note:** If you are using **Termux**, you need to install `git` and `python3` first. You can do this with command: `pkg update && pkg install python3 git -y`
+
+> **Note:** If you are using **Windows OS**, you need to install `python` and `php` first. after than you can download this repository zip file from **Code > Download ZIP**. after download this tool extract and open **Command Prompt** application and use this command: `python -m pip install -r requirements.txt` after this process end, You can run script with command: `python chphisher.py`
+
+####  How to run this tool in `Personal Host`?
+
+> Zip the contents of the `chphisher-www` directory completely and upload it to the public_html path.
+> 
+> **Note:** That the tool should not be opened in a path like this > yourdomain.com/chphisher-www
+>
+> **Instead:** , It should be opened purely in the public_html path (i.e. : don't just zip the `chphisher-www` folder itself, but manually zip its contents (the index.php file and other belongings should be in the public_html path)
+
+
+
+## 📝️ How it Works?
+
+It is placed on the `Localhost` or `Personal Host`, after that you enter the panel with the default username and password of the tool. If you want to test which template to give to the victim, you can access the templates section from the top left section [1].
+Then, if you want to give the desired phishing template link to the victim, you can choose the template section and get the link of your desired template.
+Then give it to the victim and enjoy this tool.
+
+> ⚠️ Attention [1]: If you enter the templates section and it asks for your username and password, give it the default username and password of the panel and go to the templates section again. Don't worry, this tool is designed to monitor all the victim's thoughts and make sure that the victim does not have access to the hacker panel.
+
 
 **`how to run personal host 👇`**
 
@@ -100,12 +124,20 @@ $ sudo python3 st.py
 > Note that the tool should not be opened in a path like this > yourdomain.com/st-web
 > Instead , it should be opened purely in the public_html path (i.e. : don't just zip the storm-web folder itself, but manually zip its contents (the index.php file and other belongings should be in the public_html path)
 
-#### Attention!:
+## 📢 Attentions:
 
-> Note that to use this tool on your Localhost , You also need SSL . Because many of the tool's capabilities require SSL .
+> That to use this tool on your `Localhost`, You also need **SSL**. Because many of the tool's capabilities require **SSL**.
 
-#### Attention!:
+> To run `NGROK` Service on **Termux** you need to enable your <ins>Personal Hotspot and Cellular Network</ins>.
 
-> To run ngrok on termux you need to enable your personal hotspot and cellular network.
 
-</p>
+## ❤️ Donation 
+> bitcoin:   bc1ql4syps7qpa3djqrxwht3g66tldyh4j7qsyjkq0
+
+## 🚨 Reporting Issues
+
+If you are facing a configuration issue or something is not working as you expected to be, please use the **Ch4120ni@Gmail.com**
+
+## ⚠️ Legal disclaimer ⚠️
+
+> Usage of `Chphisher` for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
