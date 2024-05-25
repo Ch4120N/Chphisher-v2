@@ -102,7 +102,7 @@ function check_new_version(){
 
 
     function check_version_on_git(){
-        $.get("https://raw.githubusercontent.com/Ch4120N/Chphisher-v2/main/chphisher-www/Settings.json",function(data){
+        $.get("https://raw.githubusercontent.com/Ch4120N/Chphisher-v2/master/chphisher-www/Settings.json",function(data){
             new_version = JSON.parse(data)
                 if(last_version < new_version.version){
                     show_notif("New version available :)","https://github.com/Ch4120N/Chphisher-v2",true)
