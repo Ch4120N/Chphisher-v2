@@ -29,8 +29,7 @@
   <a href="https://en.wikipedia.org/wiki/Windows">
     <img src="https://img.shields.io/badge/Platform-Windows-skyblue">
   </a>
-  
-  ![GitHub License](https://img.shields.io/github/license/Ch4120N/Chphisher-v2)
+  <img src="https://img.shields.io/github/license/Ch4120N/Chphisher-v2">
 </p>
 
 ## Project Programmer
