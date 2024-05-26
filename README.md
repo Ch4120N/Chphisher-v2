@@ -69,7 +69,7 @@ You can edit the **__include/config.php__** file to change the username and pass
 
 __We have deleted NGROK Service in the new version of `Chphisher` and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself__.
 
-## Supported Operating Systems
+## 🛠 Supported Operating Systems
 - [X] Debian
 - [X] Kali Linux
 - [X] Ubuntu
