@@ -69,7 +69,7 @@ You can edit the **__include/config.php__** file to change the username and pass
 
 __We have deleted NGROK Service in the new version of `Chphisher` and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself__.
 
-## 🎗️ Supported Operating Systems
+## Supported Operating Systems
 - [X] Debian
 - [X] Kali Linux
 - [X] Ubuntu
@@ -117,14 +117,6 @@ Then, if you want to give the desired phishing template link to the victim, you 
 Then give it to the victim and enjoy this tool.
 
 > ⚠️ Attention [1]: If you enter the templates section and it asks for your username and password, give it the default username and password of the panel and go to the templates section again. Don't worry, this tool is designed to monitor all the victim's thoughts and make sure that the victim does not have access to the hacker panel.
-
-
-**`how to run personal host 👇`**
-
-> Zip the contents of the storm-web folder completely and upload it to the public_html path .
-
-> Note that the tool should not be opened in a path like this > yourdomain.com/st-web
-> Instead , it should be opened purely in the public_html path (i.e. : don't just zip the storm-web folder itself, but manually zip its contents (the index.php file and other belongings should be in the public_html path)
 
 ## 📢 Attentions:
 
