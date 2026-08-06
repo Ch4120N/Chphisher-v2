@@ -72,3 +72,4 @@ run_with_spinner() {
     (
         "$@" > /tmp/spinner_out 2>&1
     ) &
+    local pid=$!
