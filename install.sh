@@ -176,3 +176,4 @@ detect_os() {
             alpine)
                 PKG_MANAGER="apk"
                 PKG_UPDATE="apk update"
+                PKG_INSTALL="apk add"
