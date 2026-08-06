@@ -124,3 +124,4 @@ detect_os() {
 
     if [[ -n "${PREFIX:-}" && "$PREFIX" == *"com.termux"* ]]; then
         OS_NAME="termux"
+        PKG_MANAGER="pkg"
