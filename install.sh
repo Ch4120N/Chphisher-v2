@@ -227,3 +227,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v emerge &>/dev/null; then
                     PKG_MANAGER="emerge"
+                    PKG_UPDATE="emerge --sync -q"
