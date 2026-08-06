@@ -79,3 +79,4 @@ run_with_spinner() {
     if [[ $exit_code -eq 0 ]]; then
         print_ok "$desc – done"
     else
+        print_error "$desc – failed (see /tmp/spinner_out)"
