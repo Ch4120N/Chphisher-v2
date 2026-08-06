@@ -341,3 +341,4 @@ main() {
         exit 1
     fi
 
+    box_message "Detecting your system..."
