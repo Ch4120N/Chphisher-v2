@@ -65,3 +65,4 @@ spinner() {
     echo -ne "\r\033[K"
 }
 
+run_with_spinner() {
