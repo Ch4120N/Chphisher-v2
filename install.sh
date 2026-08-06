@@ -149,3 +149,4 @@ detect_os() {
             arch|manjaro|arcolinux|garuda|endeavouros|artix)
                 PKG_MANAGER="pacman"
                 PKG_UPDATE="pacman -Sy --noconfirm"
+                PKG_INSTALL="pacman -S --noconfirm"
