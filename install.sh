@@ -339,3 +339,4 @@ main() {
     if [[ "$OS_NAME" != "termux" ]] && [[ "$(id -u)" -ne 0 ]]; then
         print_error "This script must be run as root (or with sudo) to install system packages."
         exit 1
+    fi
