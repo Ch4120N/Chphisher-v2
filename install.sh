@@ -174,3 +174,4 @@ detect_os() {
                 PHP_PKG="php"
                 ;;
             alpine)
+                PKG_MANAGER="apk"
