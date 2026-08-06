@@ -58,3 +58,4 @@ spinner() {
     while kill -0 "$pid" 2>/dev/null; do
         for (( i=0; i<${#spinstr}; i++ )); do
             echo -ne "${grey}${spinstr:$i:1}${reset} \r"
+            sleep "$delay"
