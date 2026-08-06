@@ -335,3 +335,4 @@ main() {
 
     banner
 
+    # Check root (except Termux)
