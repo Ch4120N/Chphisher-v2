@@ -116,3 +116,4 @@ banner() {
 EOF
     echo -e "${reset}\n"
 }
+
