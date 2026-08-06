@@ -146,3 +146,4 @@ detect_os() {
                 PYTHON_PKG="python3 python3-pip"
                 PHP_PKG="php"
                 ;;
+            arch|manjaro|arcolinux|garuda|endeavouros|artix)
