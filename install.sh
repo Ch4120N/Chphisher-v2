@@ -313,3 +313,4 @@ install_python_deps() {
         pip_cmd="pip3"
     else
         pip_cmd="pip"
+    fi
