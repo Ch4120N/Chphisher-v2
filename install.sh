@@ -233,3 +233,4 @@ detect_os() {
                     PHP_PKG="dev-lang/php"
                 else
                     print_error "No supported package manager found. Please install python3, pip, and php manually."
+                    exit 1
