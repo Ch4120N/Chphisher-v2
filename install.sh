@@ -117,3 +117,4 @@ EOF
     echo -e "${reset}\n"
 }
 
+# ─── OS / Package Manager Detection ──────────────────────────
