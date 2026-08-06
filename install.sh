@@ -213,3 +213,4 @@ detect_os() {
                     PKG_INSTALL="yum install -y"
                     PYTHON_PKG="python3 python3-pip"
                     PHP_PKG="php"
+                elif command -v zypper &>/dev/null; then
