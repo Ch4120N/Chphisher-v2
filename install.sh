@@ -275,3 +275,4 @@ detect_os() {
             else
                 print_error "macOS detected but neither Homebrew nor MacPorts found."
                 print_info "Please install one of them or install python3 and php manually."
+                exit 1
