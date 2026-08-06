@@ -188,3 +188,4 @@ detect_os() {
                 PHP_PKG="dev-lang/php"
                 ;;
             *)
+                # Fallback: try to detect package manager
