@@ -244,3 +244,4 @@ detect_os() {
     case "$OS_KERNEL" in
         freebsd)
             OS_NAME="freebsd"
+            PKG_MANAGER="pkg"
