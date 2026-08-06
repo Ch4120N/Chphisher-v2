@@ -197,3 +197,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v pacman &>/dev/null; then
                     PKG_MANAGER="pacman"
+                    PKG_UPDATE="pacman -Sy --noconfirm"
