@@ -306,3 +306,4 @@ install_python_deps() {
     if ! command -v pip3 &>/dev/null && ! command -v pip &>/dev/null; then
         print_error "pip not found. Please install pip manually."
         exit 1
+    fi
