@@ -184,3 +184,4 @@ detect_os() {
                 PKG_MANAGER="emerge"
                 PKG_UPDATE="emerge --sync -q"
                 PKG_INSTALL="emerge -av"
+                PYTHON_PKG="dev-python/pip"
