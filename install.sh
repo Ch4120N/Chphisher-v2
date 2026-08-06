@@ -298,3 +298,4 @@ install_packages() {
 
 # ─── Install Python Dependencies ─────────────────────────────
 install_python_deps() {
+    if [[ ! -f requirements.txt ]]; then
