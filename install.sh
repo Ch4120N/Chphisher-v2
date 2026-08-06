@@ -82,3 +82,4 @@ run_with_spinner() {
         print_error "$desc – failed (see /tmp/spinner_out)"
         exit "$exit_code"
     fi
+}
