@@ -289,3 +289,4 @@ detect_os() {
 install_packages() {
     if [[ -n "${PIP_PKG:-}" ]]; then
         run_with_spinner "Updating package lists" sh -c "$PKG_UPDATE"
+        run_with_spinner "Installing Python, PHP, and pip" sh -c "$PKG_INSTALL $PYTHON_PKG $PHP_PKG $PIP_PKG"
