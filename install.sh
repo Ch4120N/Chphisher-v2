@@ -42,3 +42,4 @@ print_bold()  { echo -e "${bold}$*${reset}"; }
 
 box_message() {
     local msg="$1"
+    local len=$(( ${#msg} + 4 ))
