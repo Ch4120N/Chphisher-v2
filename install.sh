@@ -268,3 +268,4 @@ detect_os() {
                 PIP_PKG=""   # pip comes with python on brew
             elif command -v port &>/dev/null; then
                 PKG_MANAGER="port"
+                PKG_UPDATE="port selfupdate"
