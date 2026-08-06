@@ -143,3 +143,4 @@ detect_os() {
                 PKG_MANAGER="apt"
                 PKG_UPDATE="apt-get update -qq"
                 PKG_INSTALL="apt-get install -y"
+                PYTHON_PKG="python3 python3-pip"
