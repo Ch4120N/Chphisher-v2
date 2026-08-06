@@ -243,3 +243,4 @@ detect_os() {
     # BSD / macOS
     case "$OS_KERNEL" in
         freebsd)
+            OS_NAME="freebsd"
