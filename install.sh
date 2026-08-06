@@ -222,3 +222,4 @@ detect_os() {
                 elif command -v apk &>/dev/null; then
                     PKG_MANAGER="apk"
                     PKG_UPDATE="apk update"
+                    PKG_INSTALL="apk add"
