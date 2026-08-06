@@ -11,3 +11,4 @@ set -euo pipefail
 # ─── Colours & Styles ─────────────────────────────────────────
 reset="\e[0m"
 bold="\e[1m"
+dim="\e[2m"
