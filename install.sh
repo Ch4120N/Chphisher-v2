@@ -221,3 +221,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v apk &>/dev/null; then
                     PKG_MANAGER="apk"
+                    PKG_UPDATE="apk update"
