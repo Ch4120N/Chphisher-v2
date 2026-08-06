@@ -322,3 +322,4 @@ install_python_deps() {
     if [[ "$py_version" == "True" ]] && [[ "$PKG_MANAGER" != "apk" && "$PKG_MANAGER" != "emerge" ]]; then
         # On some systems (Debian/Ubuntu with Python 3.11+), we need the flag
         if [[ "$PKG_MANAGER" == "apt" ]] || [[ "$PKG_MANAGER" == "dnf" ]] || [[ "$PKG_MANAGER" == "yum" ]]; then
+            pip_flags="--break-system-packages"
