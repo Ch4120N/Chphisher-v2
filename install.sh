@@ -153,3 +153,4 @@ detect_os() {
                 PYTHON_PKG="python python-pip"
                 PHP_PKG="php"
                 ;;
+            fedora|rhel|centos|rocky|almalinux)
