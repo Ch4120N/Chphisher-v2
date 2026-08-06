@@ -346,3 +346,4 @@ main() {
     print_info "OS: $OS_NAME ($OS_KERNEL $OS_ARCH)"
     print_info "Package Manager: $PKG_MANAGER"
 
+    # Ask for confirmation
