@@ -179,3 +179,4 @@ detect_os() {
                 PKG_INSTALL="apk add"
                 PYTHON_PKG="python3 py3-pip"
                 PHP_PKG="php"
+                ;;
