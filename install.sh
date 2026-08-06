@@ -202,3 +202,4 @@ detect_os() {
                     PYTHON_PKG="python python-pip"
                     PHP_PKG="php"
                 elif command -v dnf &>/dev/null; then
+                    PKG_MANAGER="dnf"
