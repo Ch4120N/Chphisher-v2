@@ -99,3 +99,4 @@ banner() {
                      /  ' /
              ____   /  ' /               --> ChPhisher Dependencies Installer <--
       ,-'~~~~    ~~/  ' /_             Github: https://github.com/Ch4120N/ChPhisher
+    ,'             ``~~~  ',
