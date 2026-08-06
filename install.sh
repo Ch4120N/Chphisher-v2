@@ -336,3 +336,4 @@ main() {
     banner
 
     # Check root (except Termux)
+    if [[ "$OS_NAME" != "termux" ]] && [[ "$(id -u)" -ne 0 ]]; then
