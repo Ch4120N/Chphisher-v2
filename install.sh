@@ -55,3 +55,4 @@ spinner() {
     local delay=0.1
     local spinstr='⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'
     tput civis  # hide cursor
+    while kill -0 "$pid" 2>/dev/null; do
