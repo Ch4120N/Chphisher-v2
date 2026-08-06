@@ -177,3 +177,4 @@ detect_os() {
                 PKG_MANAGER="apk"
                 PKG_UPDATE="apk update"
                 PKG_INSTALL="apk add"
+                PYTHON_PKG="python3 py3-pip"
