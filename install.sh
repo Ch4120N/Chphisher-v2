@@ -315,3 +315,4 @@ install_python_deps() {
         pip_cmd="pip"
     fi
 
+    # Check Python version for --break-system-packages
