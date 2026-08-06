@@ -278,3 +278,4 @@ detect_os() {
                 exit 1
             fi
             ;;
+        *)
