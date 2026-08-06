@@ -25,3 +25,4 @@ cyan="\e[36m"
 white="\e[37m"
 grey="\e[90m"
 
+bg_red="\e[41m"
