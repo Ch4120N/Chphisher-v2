@@ -263,3 +263,4 @@ detect_os() {
             if command -v brew &>/dev/null; then
                 PKG_MANAGER="brew"
                 PKG_UPDATE="brew update"
+                PKG_INSTALL="brew install"
