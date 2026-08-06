@@ -220,3 +220,4 @@ detect_os() {
                     PYTHON_PKG="python3 python3-pip"
                     PHP_PKG="php"
                 elif command -v apk &>/dev/null; then
+                    PKG_MANAGER="apk"
