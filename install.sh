@@ -234,3 +234,4 @@ detect_os() {
                 else
                     print_error "No supported package manager found. Please install python3, pip, and php manually."
                     exit 1
+                fi
