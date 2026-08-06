@@ -262,3 +262,4 @@ detect_os() {
             OS_NAME="macos"
             if command -v brew &>/dev/null; then
                 PKG_MANAGER="brew"
+                PKG_UPDATE="brew update"
