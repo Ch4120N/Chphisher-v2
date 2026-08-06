@@ -163,3 +163,4 @@ detect_os() {
                     PKG_UPDATE="yum check-update -q"
                     PKG_INSTALL="yum install -y"
                 fi
+                PYTHON_PKG="python3 python3-pip"
