@@ -114,3 +114,4 @@ banner() {
           `'{_            )
               ^^\..___,.--`
 EOF
+    echo -e "${reset}\n"
