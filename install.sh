@@ -74,3 +74,4 @@ run_with_spinner() {
     ) &
     local pid=$!
     spinner "$pid"
+    wait "$pid"
