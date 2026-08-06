@@ -332,3 +332,4 @@ install_python_deps() {
 # ─── Main ──────────────────────────────────────────────────────
 main() {
     trap 'rm -f /tmp/spinner_out; exit' INT TERM EXIT
+
