@@ -47,3 +47,4 @@ box_message() {
     echo -e "${cyan}╭${bar}╮${reset}"
     echo -e "${cyan}│ ${white}${msg}${cyan} │${reset}"
     echo -e "${cyan}╰${bar}╯${reset}"
+}
