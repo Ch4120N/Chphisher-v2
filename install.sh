@@ -286,3 +286,4 @@ detect_os() {
 }
 
 # ─── Install Packages ─────────────────────────────────────────
+install_packages() {
