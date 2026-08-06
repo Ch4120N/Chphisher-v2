@@ -64,3 +64,4 @@ spinner() {
     tput cnorm  # show cursor
     echo -ne "\r\033[K"
 }
+
