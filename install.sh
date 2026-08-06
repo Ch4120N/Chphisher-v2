@@ -273,3 +273,4 @@ detect_os() {
                 PYTHON_PKG="python38 py38-pip"
                 PHP_PKG="php"
             else
+                print_error "macOS detected but neither Homebrew nor MacPorts found."
