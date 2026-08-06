@@ -288,3 +288,4 @@ detect_os() {
 # ─── Install Packages ─────────────────────────────────────────
 install_packages() {
     if [[ -n "${PIP_PKG:-}" ]]; then
+        run_with_spinner "Updating package lists" sh -c "$PKG_UPDATE"
