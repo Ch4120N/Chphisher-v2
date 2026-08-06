@@ -301,3 +301,4 @@ install_python_deps() {
     if [[ ! -f requirements.txt ]]; then
         print_warn "requirements.txt not found in current directory. Skipping pip install."
         return
+    fi
