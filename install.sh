@@ -75,3 +75,4 @@ run_with_spinner() {
     local pid=$!
     spinner "$pid"
     wait "$pid"
+    local exit_code=$?
