@@ -261,3 +261,4 @@ detect_os() {
         darwin)
             OS_NAME="macos"
             if command -v brew &>/dev/null; then
+                PKG_MANAGER="brew"
