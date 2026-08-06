@@ -354,3 +354,4 @@ main() {
     fi
 
     # Install system packages
+    install_packages
