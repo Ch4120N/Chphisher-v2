@@ -309,3 +309,4 @@ install_python_deps() {
     fi
 
     local pip_cmd
+    if command -v pip3 &>/dev/null; then
