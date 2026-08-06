@@ -154,3 +154,4 @@ detect_os() {
                 PHP_PKG="php"
                 ;;
             fedora|rhel|centos|rocky|almalinux)
+                if command -v dnf &>/dev/null; then
