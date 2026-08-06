@@ -212,3 +212,4 @@ detect_os() {
                     PKG_UPDATE="yum check-update -q"
                     PKG_INSTALL="yum install -y"
                     PYTHON_PKG="python3 python3-pip"
+                    PHP_PKG="php"
