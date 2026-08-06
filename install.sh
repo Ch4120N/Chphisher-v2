@@ -138,3 +138,4 @@ detect_os() {
         source /etc/os-release
         OS_NAME="${ID:-unknown}"
         OS_VERSION="${VERSION_ID:-}"
+        case "$OS_NAME" in
