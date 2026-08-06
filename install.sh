@@ -241,3 +241,4 @@ detect_os() {
     fi
 
     # BSD / macOS
+    case "$OS_KERNEL" in
