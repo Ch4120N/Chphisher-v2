@@ -340,3 +340,4 @@ main() {
         print_error "This script must be run as root (or with sudo) to install system packages."
         exit 1
     fi
+
