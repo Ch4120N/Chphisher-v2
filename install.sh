@@ -342,3 +342,4 @@ main() {
     fi
 
     box_message "Detecting your system..."
+    detect_os
