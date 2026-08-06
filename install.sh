@@ -199,3 +199,4 @@ detect_os() {
                     PKG_MANAGER="pacman"
                     PKG_UPDATE="pacman -Sy --noconfirm"
                     PKG_INSTALL="pacman -S --noconfirm"
+                    PYTHON_PKG="python python-pip"
