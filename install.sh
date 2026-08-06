@@ -180,3 +180,4 @@ detect_os() {
                 PYTHON_PKG="python3 py3-pip"
                 PHP_PKG="php"
                 ;;
+            gentoo)
