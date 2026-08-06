@@ -141,3 +141,4 @@ detect_os() {
         case "$OS_NAME" in
             debian|ubuntu|kali|linuxmint|parrot|pop|elementary|zorin|raspbian)
                 PKG_MANAGER="apt"
+                PKG_UPDATE="apt-get update -qq"
