@@ -282,3 +282,4 @@ detect_os() {
             print_error "Unsupported OS: $OS_KERNEL"
             exit 1
             ;;
+    esac
