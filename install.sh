@@ -133,3 +133,4 @@ detect_os() {
         return
     fi
 
+    # Linux with /etc/os-release
