@@ -259,3 +259,4 @@ detect_os() {
             PHP_PKG="php"
             ;;
         darwin)
+            OS_NAME="macos"
