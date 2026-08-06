@@ -126,3 +126,4 @@ detect_os() {
         OS_NAME="termux"
         PKG_MANAGER="pkg"
         PKG_UPDATE="pkg update"
+        PKG_INSTALL="pkg install -y"
