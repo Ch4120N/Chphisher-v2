@@ -183,3 +183,4 @@ detect_os() {
             gentoo)
                 PKG_MANAGER="emerge"
                 PKG_UPDATE="emerge --sync -q"
+                PKG_INSTALL="emerge -av"
