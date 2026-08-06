@@ -198,3 +198,4 @@ detect_os() {
                 elif command -v pacman &>/dev/null; then
                     PKG_MANAGER="pacman"
                     PKG_UPDATE="pacman -Sy --noconfirm"
+                    PKG_INSTALL="pacman -S --noconfirm"
