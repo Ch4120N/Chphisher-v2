@@ -147,3 +147,4 @@ detect_os() {
                 PHP_PKG="php"
                 ;;
             arch|manjaro|arcolinux|garuda|endeavouros|artix)
+                PKG_MANAGER="pacman"
