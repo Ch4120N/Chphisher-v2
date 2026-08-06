@@ -61,3 +61,4 @@ spinner() {
             sleep "$delay"
         done
     done
+    tput cnorm  # show cursor
