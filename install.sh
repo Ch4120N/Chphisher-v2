@@ -228,3 +228,4 @@ detect_os() {
                 elif command -v emerge &>/dev/null; then
                     PKG_MANAGER="emerge"
                     PKG_UPDATE="emerge --sync -q"
+                    PKG_INSTALL="emerge -av"
