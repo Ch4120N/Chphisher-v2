@@ -12,3 +12,4 @@ set -euo pipefail
 reset="\e[0m"
 bold="\e[1m"
 dim="\e[2m"
+italic="\e[3m"
