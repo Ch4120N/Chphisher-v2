@@ -41,3 +41,4 @@ print_step()  { echo -e "${cyan}[➜]${reset} $*"; }
 print_bold()  { echo -e "${bold}$*${reset}"; }
 
 box_message() {
+    local msg="$1"
