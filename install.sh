@@ -97,3 +97,4 @@ banner() {
                       `/-.__L._
                       /  ' /\`_}
                      /  ' /
+             ____   /  ' /               --> ChPhisher Dependencies Installer <--
