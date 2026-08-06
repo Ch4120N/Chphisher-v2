@@ -68,3 +68,4 @@ spinner() {
 run_with_spinner() {
     local desc="$1"
     shift
+    print_step "$desc"
