@@ -181,3 +181,4 @@ detect_os() {
                 PHP_PKG="php"
                 ;;
             gentoo)
+                PKG_MANAGER="emerge"
