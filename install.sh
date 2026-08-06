@@ -168,3 +168,4 @@ detect_os() {
                 ;;
             opensuse*|suse)
                 PKG_MANAGER="zypper"
+                PKG_UPDATE="zypper refresh"
