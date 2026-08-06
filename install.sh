@@ -326,3 +326,4 @@ install_python_deps() {
         fi
     fi
 
+    run_with_spinner "Installing Python dependencies" sh -c "$pip_cmd install -r requirements.txt $pip_flags"
