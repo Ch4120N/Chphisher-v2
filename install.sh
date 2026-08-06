@@ -206,3 +206,4 @@ detect_os() {
                     PKG_UPDATE="dnf check-update -q"
                     PKG_INSTALL="dnf install -y"
                     PYTHON_PKG="python3 python3-pip"
+                    PHP_PKG="php"
