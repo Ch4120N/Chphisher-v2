@@ -279,3 +279,4 @@ detect_os() {
             fi
             ;;
         *)
+            print_error "Unsupported OS: $OS_KERNEL"
