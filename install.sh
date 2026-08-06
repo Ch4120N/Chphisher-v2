@@ -295,3 +295,4 @@ install_packages() {
         run_with_spinner "Installing Python and PHP" sh -c "$PKG_INSTALL $PYTHON_PKG $PHP_PKG"
     fi
 }
+
