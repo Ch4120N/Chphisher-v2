@@ -6,3 +6,4 @@
 # Repo: https://github.com/Ch4120N/ChPhisher
 # ───────────────────────────────────────────────────────────────
 
+set -euo pipefail
