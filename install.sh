@@ -162,3 +162,4 @@ detect_os() {
                     PKG_MANAGER="yum"
                     PKG_UPDATE="yum check-update -q"
                     PKG_INSTALL="yum install -y"
+                fi
