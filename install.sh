@@ -123,3 +123,4 @@ detect_os() {
     OS_ARCH=$(uname -m | tr '[:upper:]' '[:lower:]')
 
     if [[ -n "${PREFIX:-}" && "$PREFIX" == *"com.termux"* ]]; then
+        OS_NAME="termux"
