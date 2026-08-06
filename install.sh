@@ -284,3 +284,4 @@ detect_os() {
             ;;
     esac
 }
+
