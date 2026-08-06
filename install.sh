@@ -127,3 +127,4 @@ detect_os() {
         PKG_MANAGER="pkg"
         PKG_UPDATE="pkg update"
         PKG_INSTALL="pkg install -y"
+        PYTHON_PKG="python"
