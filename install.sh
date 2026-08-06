@@ -192,3 +192,4 @@ detect_os() {
                 if command -v apt-get &>/dev/null; then
                     PKG_MANAGER="apt"
                     PKG_UPDATE="apt-get update -qq"
+                    PKG_INSTALL="apt-get install -y"
