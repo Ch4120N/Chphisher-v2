@@ -320,3 +320,4 @@ install_python_deps() {
     py_version=$(python3 -c 'import sys; print(sys.version_info[:2] >= (3,11))' 2>/dev/null || echo "False")
     local pip_flags=""
     if [[ "$py_version" == "True" ]] && [[ "$PKG_MANAGER" != "apk" && "$PKG_MANAGER" != "emerge" ]]; then
+        # On some systems (Debian/Ubuntu with Python 3.11+), we need the flag
