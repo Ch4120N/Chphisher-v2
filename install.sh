@@ -26,3 +26,4 @@ white="\e[37m"
 grey="\e[90m"
 
 bg_red="\e[41m"
+bg_green="\e[42m"
