@@ -156,3 +156,4 @@ detect_os() {
             fedora|rhel|centos|rocky|almalinux)
                 if command -v dnf &>/dev/null; then
                     PKG_MANAGER="dnf"
+                    PKG_UPDATE="dnf check-update -q"
