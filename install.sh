@@ -71,3 +71,4 @@ run_with_spinner() {
     print_step "$desc"
     (
         "$@" > /tmp/spinner_out 2>&1
+    ) &
