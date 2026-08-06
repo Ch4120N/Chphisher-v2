@@ -77,3 +77,4 @@ run_with_spinner() {
     wait "$pid"
     local exit_code=$?
     if [[ $exit_code -eq 0 ]]; then
+        print_ok "$desc – done"
