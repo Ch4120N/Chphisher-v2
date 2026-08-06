@@ -347,3 +347,4 @@ main() {
     print_info "Package Manager: $PKG_MANAGER"
 
     # Ask for confirmation
+    read -rp "$(echo -e "${yellow}Proceed with installation? [Y/n] ${reset}")" confirm
