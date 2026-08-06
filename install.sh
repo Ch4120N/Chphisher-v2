@@ -36,3 +36,4 @@ bg_cyan="\e[46m"
 print_info()  { echo -e "${blue}[ℹ]${reset} $*"; }
 print_ok()    { echo -e "${green}[✓]${reset} $*"; }
 print_warn()  { echo -e "${yellow}[⚠]${reset} $*"; }
+print_error() { echo -e "${red}[✗]${reset} $*"; }
