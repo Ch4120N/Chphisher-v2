@@ -54,3 +54,4 @@ spinner() {
     local pid=$1
     local delay=0.1
     local spinstr='⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'
+    tput civis  # hide cursor
