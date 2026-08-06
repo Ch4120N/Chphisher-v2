@@ -33,3 +33,4 @@ bg_magenta="\e[45m"
 bg_cyan="\e[46m"
 
 # ─── Helpers ──────────────────────────────────────────────────
+print_info()  { echo -e "${blue}[ℹ]${reset} $*"; }
