@@ -88,3 +88,4 @@ run_with_spinner() {
 banner() {
     echo -e "${cyan}"
     cat << "EOF"
+                            ,--.
