@@ -9,3 +9,4 @@
 set -euo pipefail
 
 # ─── Colours & Styles ─────────────────────────────────────────
+reset="\e[0m"
