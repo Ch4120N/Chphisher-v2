@@ -204,3 +204,4 @@ detect_os() {
                 elif command -v dnf &>/dev/null; then
                     PKG_MANAGER="dnf"
                     PKG_UPDATE="dnf check-update -q"
+                    PKG_INSTALL="dnf install -y"
