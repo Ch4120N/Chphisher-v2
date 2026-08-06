@@ -80,3 +80,4 @@ run_with_spinner() {
         print_ok "$desc – done"
     else
         print_error "$desc – failed (see /tmp/spinner_out)"
+        exit "$exit_code"
