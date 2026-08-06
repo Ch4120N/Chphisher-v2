@@ -255,3 +255,4 @@ detect_os() {
             PKG_MANAGER="pkg_add"
             PKG_UPDATE="true"   # pkg_add doesn't have update
             PKG_INSTALL="pkg_add -I"
+            PYTHON_PKG="python3 py3-pip"
