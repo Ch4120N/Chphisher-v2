@@ -160,3 +160,4 @@ detect_os() {
                     PKG_INSTALL="dnf install -y"
                 else
                     PKG_MANAGER="yum"
+                    PKG_UPDATE="yum check-update -q"
