@@ -308,3 +308,4 @@ install_python_deps() {
         exit 1
     fi
 
+    local pip_cmd
