@@ -187,3 +187,4 @@ detect_os() {
                 PYTHON_PKG="dev-python/pip"
                 PHP_PKG="dev-lang/php"
                 ;;
+            *)
