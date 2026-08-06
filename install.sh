@@ -89,3 +89,4 @@ banner() {
     echo -e "${cyan}"
     cat << "EOF"
                             ,--.
+                           {    }
