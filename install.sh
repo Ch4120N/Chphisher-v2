@@ -250,3 +250,4 @@ detect_os() {
             PYTHON_PKG="python310 py310-pip"
             PHP_PKG="php"
             ;;
+        openbsd)
