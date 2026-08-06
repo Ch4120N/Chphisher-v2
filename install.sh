@@ -87,3 +87,4 @@ run_with_spinner() {
 # ─── Banner ────────────────────────────────────────────────────
 banner() {
     echo -e "${cyan}"
+    cat << "EOF"
