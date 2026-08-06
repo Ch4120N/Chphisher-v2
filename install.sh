@@ -267,3 +267,4 @@ detect_os() {
                 PYTHON_PKG="python php"
                 PIP_PKG=""   # pip comes with python on brew
             elif command -v port &>/dev/null; then
+                PKG_MANAGER="port"
