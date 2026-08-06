@@ -349,3 +349,4 @@ main() {
     # Ask for confirmation
     read -rp "$(echo -e "${yellow}Proceed with installation? [Y/n] ${reset}")" confirm
     if [[ "$confirm" =~ ^[Nn]$ ]]; then
+        print_info "Installation cancelled."
