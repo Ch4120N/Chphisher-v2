@@ -8,3 +8,4 @@
 
 set -euo pipefail
 
+# ─── Colours & Styles ─────────────────────────────────────────
