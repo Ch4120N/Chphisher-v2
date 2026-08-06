@@ -60,3 +60,4 @@ spinner() {
             echo -ne "${grey}${spinstr:$i:1}${reset} \r"
             sleep "$delay"
         done
+    done
