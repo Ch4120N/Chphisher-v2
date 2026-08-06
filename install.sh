@@ -254,3 +254,4 @@ detect_os() {
             OS_NAME="openbsd"
             PKG_MANAGER="pkg_add"
             PKG_UPDATE="true"   # pkg_add doesn't have update
+            PKG_INSTALL="pkg_add -I"
