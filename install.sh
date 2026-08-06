@@ -248,3 +248,4 @@ detect_os() {
             PKG_UPDATE="pkg update -q"
             PKG_INSTALL="pkg install -y"
             PYTHON_PKG="python310 py310-pip"
+            PHP_PKG="php"
