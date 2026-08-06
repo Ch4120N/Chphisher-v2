@@ -270,3 +270,4 @@ detect_os() {
                 PKG_MANAGER="port"
                 PKG_UPDATE="port selfupdate"
                 PKG_INSTALL="port install"
+                PYTHON_PKG="python38 py38-pip"
