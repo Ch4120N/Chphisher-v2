@@ -252,3 +252,4 @@ detect_os() {
             ;;
         openbsd)
             OS_NAME="openbsd"
+            PKG_MANAGER="pkg_add"
