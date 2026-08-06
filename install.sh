@@ -363,3 +363,4 @@ main() {
     echo -e "${blue}You can now run ChPhisher.${reset}"
 }
 
+# ─── Run ──────────────────────────────────────────────────────
