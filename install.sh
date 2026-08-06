@@ -128,3 +128,4 @@ detect_os() {
         PKG_UPDATE="pkg update"
         PKG_INSTALL="pkg install -y"
         PYTHON_PKG="python"
+        PIP_PKG="python-pip"
