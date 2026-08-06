@@ -317,3 +317,4 @@ install_python_deps() {
 
     # Check Python version for --break-system-packages
     local py_version
+    py_version=$(python3 -c 'import sys; print(sys.version_info[:2] >= (3,11))' 2>/dev/null || echo "False")
