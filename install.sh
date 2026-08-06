@@ -130,3 +130,4 @@ detect_os() {
         PYTHON_PKG="python"
         PIP_PKG="python-pip"
         PHP_PKG="php"
+        return
