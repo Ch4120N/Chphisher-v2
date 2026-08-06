@@ -158,3 +158,4 @@ detect_os() {
                     PKG_MANAGER="dnf"
                     PKG_UPDATE="dnf check-update -q"
                     PKG_INSTALL="dnf install -y"
+                else
