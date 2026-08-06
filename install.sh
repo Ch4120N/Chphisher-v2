@@ -136,3 +136,4 @@ detect_os() {
     # Linux with /etc/os-release
     if [[ -f /etc/os-release ]]; then
         source /etc/os-release
+        OS_NAME="${ID:-unknown}"
