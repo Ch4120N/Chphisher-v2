@@ -264,3 +264,4 @@ detect_os() {
                 PKG_MANAGER="brew"
                 PKG_UPDATE="brew update"
                 PKG_INSTALL="brew install"
+                PYTHON_PKG="python php"
