@@ -167,3 +167,4 @@ detect_os() {
                 PHP_PKG="php"
                 ;;
             opensuse*|suse)
+                PKG_MANAGER="zypper"
