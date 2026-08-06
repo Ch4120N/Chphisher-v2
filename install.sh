@@ -134,3 +134,4 @@ detect_os() {
     fi
 
     # Linux with /etc/os-release
+    if [[ -f /etc/os-release ]]; then
