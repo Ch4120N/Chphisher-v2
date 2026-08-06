@@ -190,3 +190,4 @@ detect_os() {
             *)
                 # Fallback: try to detect package manager
                 if command -v apt-get &>/dev/null; then
+                    PKG_MANAGER="apt"
