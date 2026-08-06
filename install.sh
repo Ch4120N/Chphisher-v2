@@ -210,3 +210,4 @@ detect_os() {
                 elif command -v yum &>/dev/null; then
                     PKG_MANAGER="yum"
                     PKG_UPDATE="yum check-update -q"
+                    PKG_INSTALL="yum install -y"
