@@ -316,3 +316,4 @@ install_python_deps() {
     fi
 
     # Check Python version for --break-system-packages
+    local py_version
