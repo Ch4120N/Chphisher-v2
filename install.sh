@@ -245,3 +245,4 @@ detect_os() {
         freebsd)
             OS_NAME="freebsd"
             PKG_MANAGER="pkg"
+            PKG_UPDATE="pkg update -q"
