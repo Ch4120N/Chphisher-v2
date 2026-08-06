@@ -201,3 +201,4 @@ detect_os() {
                     PKG_INSTALL="pacman -S --noconfirm"
                     PYTHON_PKG="python python-pip"
                     PHP_PKG="php"
+                elif command -v dnf &>/dev/null; then
