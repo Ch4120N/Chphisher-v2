@@ -101,3 +101,4 @@ banner() {
       ,-'~~~~    ~~/  ' /_             Github: https://github.com/Ch4120N/ChPhisher
     ,'             ``~~~  ',
    (                        Y
+  {                         I
