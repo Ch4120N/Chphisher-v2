@@ -142,3 +142,4 @@ detect_os() {
             debian|ubuntu|kali|linuxmint|parrot|pop|elementary|zorin|raspbian)
                 PKG_MANAGER="apt"
                 PKG_UPDATE="apt-get update -qq"
+                PKG_INSTALL="apt-get install -y"
