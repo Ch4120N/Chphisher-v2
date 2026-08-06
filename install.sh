@@ -139,3 +139,4 @@ detect_os() {
         OS_NAME="${ID:-unknown}"
         OS_VERSION="${VERSION_ID:-}"
         case "$OS_NAME" in
+            debian|ubuntu|kali|linuxmint|parrot|pop|elementary|zorin|raspbian)
