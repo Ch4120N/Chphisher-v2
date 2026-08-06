@@ -118,3 +118,4 @@ EOF
 }
 
 # ─── OS / Package Manager Detection ──────────────────────────
+detect_os() {
