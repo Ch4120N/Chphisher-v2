@@ -269,3 +269,4 @@ detect_os() {
             elif command -v port &>/dev/null; then
                 PKG_MANAGER="port"
                 PKG_UPDATE="port selfupdate"
+                PKG_INSTALL="port install"
