@@ -356,3 +356,4 @@ main() {
     # Install system packages
     install_packages
 
+    # Install Python dependencies
