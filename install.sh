@@ -52,3 +52,4 @@ box_message() {
 # ─── Spinner ──────────────────────────────────────────────────
 spinner() {
     local pid=$1
+    local delay=0.1
