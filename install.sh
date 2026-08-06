@@ -324,3 +324,4 @@ install_python_deps() {
         if [[ "$PKG_MANAGER" == "apt" ]] || [[ "$PKG_MANAGER" == "dnf" ]] || [[ "$PKG_MANAGER" == "yum" ]]; then
             pip_flags="--break-system-packages"
         fi
+    fi
