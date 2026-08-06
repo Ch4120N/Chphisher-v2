@@ -303,3 +303,4 @@ install_python_deps() {
         return
     fi
 
+    if ! command -v pip3 &>/dev/null && ! command -v pip &>/dev/null; then
