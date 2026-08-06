@@ -251,3 +251,4 @@ detect_os() {
             PHP_PKG="php"
             ;;
         openbsd)
+            OS_NAME="openbsd"
