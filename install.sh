@@ -353,3 +353,4 @@ main() {
         exit 0
     fi
 
+    # Install system packages
