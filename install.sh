@@ -203,3 +203,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v dnf &>/dev/null; then
                     PKG_MANAGER="dnf"
+                    PKG_UPDATE="dnf check-update -q"
