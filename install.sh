@@ -240,3 +240,4 @@ detect_os() {
         return
     fi
 
+    # BSD / macOS
