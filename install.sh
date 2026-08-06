@@ -209,3 +209,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v yum &>/dev/null; then
                     PKG_MANAGER="yum"
+                    PKG_UPDATE="yum check-update -q"
