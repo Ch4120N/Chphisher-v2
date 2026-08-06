@@ -129,3 +129,4 @@ detect_os() {
         PKG_INSTALL="pkg install -y"
         PYTHON_PKG="python"
         PIP_PKG="python-pip"
+        PHP_PKG="php"
