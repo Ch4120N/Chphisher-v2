@@ -296,3 +296,4 @@ install_packages() {
     fi
 }
 
+# ─── Install Python Dependencies ─────────────────────────────
