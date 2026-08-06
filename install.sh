@@ -83,3 +83,4 @@ run_with_spinner() {
         exit "$exit_code"
     fi
 }
+
