@@ -185,3 +185,4 @@ detect_os() {
                 PKG_UPDATE="emerge --sync -q"
                 PKG_INSTALL="emerge -av"
                 PYTHON_PKG="dev-python/pip"
+                PHP_PKG="dev-lang/php"
