@@ -352,3 +352,4 @@ main() {
         print_info "Installation cancelled."
         exit 0
     fi
+
