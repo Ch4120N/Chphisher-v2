@@ -287,3 +287,4 @@ detect_os() {
 
 # ─── Install Packages ─────────────────────────────────────────
 install_packages() {
+    if [[ -n "${PIP_PKG:-}" ]]; then
