@@ -53,3 +53,4 @@ box_message() {
 spinner() {
     local pid=$1
     local delay=0.1
+    local spinstr='⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'
