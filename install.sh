@@ -45,3 +45,4 @@ box_message() {
     local len=$(( ${#msg} + 4 ))
     local bar=$(printf '%*s' "$len" | tr ' ' '─')
     echo -e "${cyan}╭${bar}╮${reset}"
+    echo -e "${cyan}│ ${white}${msg}${cyan} │${reset}"
