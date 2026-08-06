@@ -16,3 +16,4 @@ italic="\e[3m"
 underline="\e[4m"
 
 black="\e[30m"
+red="\e[31m"
