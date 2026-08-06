@@ -277,3 +277,4 @@ detect_os() {
                 print_info "Please install one of them or install python3 and php manually."
                 exit 1
             fi
+            ;;
