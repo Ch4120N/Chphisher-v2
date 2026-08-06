@@ -215,3 +215,4 @@ detect_os() {
                     PHP_PKG="php"
                 elif command -v zypper &>/dev/null; then
                     PKG_MANAGER="zypper"
+                    PKG_UPDATE="zypper refresh"
