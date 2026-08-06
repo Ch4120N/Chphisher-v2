@@ -266,3 +266,4 @@ detect_os() {
                 PKG_INSTALL="brew install"
                 PYTHON_PKG="python php"
                 PIP_PKG=""   # pip comes with python on brew
+            elif command -v port &>/dev/null; then
