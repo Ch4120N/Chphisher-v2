@@ -359,3 +359,4 @@ main() {
     # Install Python dependencies
     install_python_deps
 
+    echo -e "\n${green}${bold}✓ All dependencies have been installed successfully!${reset}"
