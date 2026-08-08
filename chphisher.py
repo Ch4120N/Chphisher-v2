@@ -40,9 +40,9 @@ def check_dependencies():
 
 if __name__ == '__main__':
     check_dependencies()
-    check_update()
     clear_screen()
     print_banner()
+    check_update()
     server_config = local_server(generate_log_name())
     print_serverinfo(server_config)
     wait_input()
