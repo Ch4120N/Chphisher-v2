@@ -54,10 +54,13 @@ def load_config(path: str) -> dict:
         return default
 
 def check_update():
-    response = requests.get("https://raw.githubusercontent.com/Ch4120N/ChPhisher/main/data/version.json").json()
+    try:
+        response = requests.get("https://raw.githubusercontent.com/Ch4120N/ChPhisher/main/data/version.json").json()
 
-    if VERSION_INFO < response.get('lastVersion'):
-        print_warning(f'New update available ... {Fore.LIGHTRED_EX}v{VERSION_INFO}{Fore.LIGHTCYAN_EX} -> {Fore.LIGHTGREEN_EX}v{response.get("lastVersion")}')
+        if VERSION_INFO < response.get('lastVersion'):
+            print_warning(f'New update available ... {Fore.LIGHTRED_EX}v{VERSION_INFO}{Fore.LIGHTCYAN_EX} -> {Fore.LIGHTGREEN_EX}v{response.get("lastVersion")}')
+    except Exception as e:
+        print_warning('Unable to check the latest version of the project ...')
 
 def local_server(output_file: str):
     server_config = load_config(SERVER_CONFIG_FILE)
