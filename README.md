@@ -5,7 +5,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/Ch4120N/Chphisher-v2"><img src=".imgs/logo.png" alt="Chphisher2"></a>
+  <a href="https://github.com/Ch4120N/Chphisher-v2"><img src="./images/logo.png" alt="Chphisher2"></a>
 
 </h1>
 
