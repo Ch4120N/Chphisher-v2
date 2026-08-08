@@ -55,7 +55,7 @@ def load_config(path: str) -> dict:
 
 def check_update():
     try:
-        response = requests.get("https://raw.githubusercontent.com/Ch4120N/ChPhisher/main/data/version.json").json()
+        response = requests.get("https://raw.githubusercontent.com/Ch4120N/Chphisher-v2/refs/heads/master/data/version.json").json()
 
         if VERSION_INFO < response.get('lastVersion'):
             print_warning(f'New update available ... {Fore.LIGHTRED_EX}v{VERSION_INFO}{Fore.LIGHTCYAN_EX} -> {Fore.LIGHTGREEN_EX}v{response.get("lastVersion")}')
