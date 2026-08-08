@@ -37,11 +37,12 @@ def check_dependencies():
     
     init(autoreset=True)
 
-check_dependencies()
 
-
-clear_screen()
-print_banner()
-server_config = local_server(generate_log_name())
-print_serverinfo(server_config)
-wait_input()
+if __name__ == '__main__':
+    check_dependencies()
+    check_update()
+    clear_screen()
+    print_banner()
+    server_config = local_server(generate_log_name())
+    print_serverinfo(server_config)
+    wait_input()
